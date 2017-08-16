@@ -7,7 +7,7 @@
           <h2>Burgers Wish List!</h2>
 
           <ul>
-            {{#each Burger}}
+            {{#each burgers}}
 
               {{#unless this.devaured}}
 
@@ -32,7 +32,7 @@
         <h2 id="eatenBurgersHeader">Completed Challenge!</h2>
 
         <ul>
-          {{#each Burger}}
+          {{#each burgers}}
 
             {{#if this.devaured}}
 
