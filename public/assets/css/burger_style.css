@@ -1,0 +1,57 @@
+
+.jumbotron {
+	background-image: url("../img/burger.jpg");
+}
+
+#eatenBurgers {
+  padding-left: 20px;
+  opacity: 0.7;
+  color: #eeeeee;
+}
+
+#eatenBurgersHeader {
+  color: black;
+}
+
+#welcomeHeader {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+
+#hoverBurger {
+  text-shadow:5px 5px 10px black;
+}
+
+#hoverBurger:hover{
+  color: black;
+  /*text-shadow:5px 5px 10px black;*/
+}
+
+#addBurgerHeader {
+  text-shadow:5px 5px 10px white;
+}
+
+#glyph {
+  font-size: 10px;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
