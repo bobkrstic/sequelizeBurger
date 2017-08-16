@@ -9,7 +9,7 @@
           <ul>
             {{#each Burger}}
 
-              {{#unless this.devoured}}
+              {{#unless this.devaured}}
 
                 <li>
                   {{this.id}}.
@@ -34,7 +34,7 @@
         <ul>
           {{#each Burger}}
 
-            {{#if this.devoured}}
+            {{#if this.devaured}}
 
               <li>
                 <p id="hoverBurger"><span class="glyphicon glyphicon-menu-right" id="glyph"></span> {{this.burger_name}}</p>
