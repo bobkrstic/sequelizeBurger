@@ -9,11 +9,11 @@ module.exports = function(sequelize, DataTypes) {
         len: [1]
       }
     },
-    devoured: {
+    devaured: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
       defaultValue: false
-    },
+    }
     date: {
       type: DataTypes.DATE,
       // defaultValue: "CURRENT_TIME"
