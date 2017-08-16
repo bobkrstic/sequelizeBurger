@@ -31,7 +31,7 @@ router.post('/', function(req,res) {
   db.Burger.create({
 
    burger_name: req.body.name,
-   devoured: req.body.sleepy
+   devaured: req.body.sleepy
 
   }).then(function(data){
     res.redirect('/');
@@ -60,7 +60,7 @@ router.post('/', function(req,res) {
 router.put('/:id', function(req,res){
   var burgerId = req.params.id;
   db.Burger.update({
-    devoured: req.body.sleepy
+    devaured: req.body.sleepy
   }, 
   {
     where: {
